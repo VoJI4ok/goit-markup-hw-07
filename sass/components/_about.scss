@@ -41,10 +41,8 @@
 }
 
 .about-soc-list{
-    display: flex;
+    @extend %aligin-list;
     justify-content: center;
-    align-items: center;
-    
 }
 .about-soc-item{
 width: 270px;
@@ -52,10 +50,8 @@ height: 120px;
 background: #F5F4FA;
 margin-left: 30px;
 margin-bottom: 30px;
-display: flex;
+@extend %aligin-list;
 justify-content: center;
-align-items: center;
-
 }
 .about-soc-item:first-child{
 margin-left: 0px;

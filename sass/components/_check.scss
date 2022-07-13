@@ -6,9 +6,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em; 
     color: #757575;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %justify-list ;
 }
 
 .check-text a {
@@ -21,11 +19,8 @@
     border: 1px solid rgba(34, 34, 34, 0.2);
     margin-right: 9px;
     border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+    @extend %justify-list ;
+}
   .check-icon {
     fill: transparent;
   }

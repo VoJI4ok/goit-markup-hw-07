@@ -1,4 +1,4 @@
-.main-title{
+.main__title{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -11,14 +11,12 @@
     margin-bottom: 40px;
 
 }
-.main-item .container{
-    
+.main .container{
     padding-top: 200px;
     padding-bottom: 200px;
-   text-align: center;
-   
-    }
-.main-item{
+    text-align: center;}
+
+.main{
 
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main_bg.png);
 background-repeat: no-repeat;
