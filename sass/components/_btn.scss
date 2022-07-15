@@ -51,18 +51,28 @@
             border-radius: 4px;}
         }
         
-        .button-list{padding-top: 94px;}
+        .button-list{padding-top: 60px;   
+             @media screen and (min-width: 768px) {
+           
+          }
+          @media screen and (min-width: 1200px) {
+            
+          }}
         
         .btn-item {
             display: flex;
-           justify-content: center;
-           margin-bottom: 50px;
+          
+           margin-bottom: 40px;
+           flex-wrap: wrap;
+           gap: 8px;
+           @media screen and (min-width: 768px){justify-content: center;
+        margin-bottom: 30px;}
+           @media screen and (min-width: 1200px){justify-content: center;
+        margin-bottom: 50px;}
            
  }
         
-.btn-list {
-margin-left: 8px; 
-}
+
 
 .modal-close-btn{
     position: absolute;
